@@ -44,7 +44,7 @@ public class Product {
     private Boolean active;
 
     @Column(name="units_in_stock")
-    private Integer units_in_stock;
+    private Integer unitsInStock;
 
     @Column(name="date_created")
     @CreationTimestamp
